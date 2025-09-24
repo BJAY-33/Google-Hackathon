@@ -1,0 +1,41 @@
+# Enhanced Agent Engine Requirements
+# Based on TestMozart with additional capabilities
+
+# Core ADK and AI dependencies
+google-adk
+google-genai
+pydantic
+python-dotenv
+
+# Testing framework (from original TestMozart)
+pytest
+pytest-cov
+
+# Git integration
+GitPython
+
+# PDF processing
+PyPDF2
+pdfplumber
+
+# Data processing
+pandas
+openpyxl
+
+# HTTP requests for JIRA integration
+requests
+
+# Additional utilities
+click
+colorama
+tabulate
+
+# Development dependencies
+black
+flake8
+mypy
+
+# Optional: Google Cloud services (for future Vertex AI integration)
+# google-cloud-aiplatform
+# google-cloud-storage
+# google-cloud-logging

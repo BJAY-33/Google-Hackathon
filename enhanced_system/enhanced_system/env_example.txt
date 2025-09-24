@@ -1,0 +1,31 @@
+# Enhanced Agent Engine Environment Configuration
+# Copy this file to .env and update with your values
+
+# Required: Google AI API Key for Gemini models
+GOOGLE_API_KEY=your_gemini_api_key_here
+
+# Optional: JIRA Integration
+JIRA_BASE_URL=https://your-company.atlassian.net
+JIRA_USERNAME=your_jira_username
+JIRA_API_TOKEN=your_jira_api_token
+
+# Optional: Feature Toggles
+ENABLE_GIT_ANALYSIS=true
+ENABLE_JIRA_INTEGRATION=true
+ENABLE_PDF_PROCESSING=true
+ENABLE_SCRIPT_GENERATION=true
+
+# Optional: Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=logs/agent_engine.log
+
+# Optional: Advanced Configuration
+MAX_CONCURRENT_REQUESTS=5
+REQUEST_TIMEOUT=300
+TEMP_DIR=./temp
+
+# Optional: Future Google Cloud Integration
+# Uncomment when ready to use Vertex AI instead of Gemini API
+# GOOGLE_CLOUD_PROJECT=your-project-id
+# GOOGLE_CLOUD_REGION=us-central1
+# GOOGLE_APPLICATION_CREDENTIALS=path/to/service-account.json
